@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange.iml" filepath="$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange_main.iml" filepath="$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange_main.iml" group="UpulsTumpetExchange" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange_test.iml" filepath="$PROJECT_DIR$/.idea/modules/UpulsTumpetExchange_test.iml" group="UpulsTumpetExchange" />
     </modules>
   </component>
 </project>
