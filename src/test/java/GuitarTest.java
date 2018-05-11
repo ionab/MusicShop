@@ -14,7 +14,6 @@ public class GuitarTest {
     }
 
 
-
     @Test
     public void canGetName() {
         assertEquals("test guitar", guitar.getName());
