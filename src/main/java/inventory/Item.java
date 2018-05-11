@@ -25,5 +25,7 @@ public abstract class Item implements ISell {
         return sell_price;
     }
 
-    public
+    public double calculateMarkUp() {
+        return (this.sell_price - this.stock_value);
+    }
 }
