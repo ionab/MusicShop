@@ -5,4 +5,7 @@ public class Guitar extends Instrument {
         super(name, stock_value, sell_price, brand, model, material, instrumentTypes);
     }
 
+    public String play() {
+        return "Kerrang";
+    }
 }

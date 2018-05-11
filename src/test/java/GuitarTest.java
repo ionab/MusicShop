@@ -48,4 +48,8 @@ public class GuitarTest {
     public void canGetInstrumentType(){
         assertEquals(InstrumentTypes.GUITAR, guitar.getInstrumentTypes());
     }
+    @Test
+    public void canPlay() {
+        assertEquals("Kerrang", guitar.play());
+    }
 }
