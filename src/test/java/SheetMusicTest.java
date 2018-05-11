@@ -29,4 +29,8 @@ public class SheetMusicTest {
     public void canGetComposer(){
         assertEquals("test composer", sheetMusic.getComposer());
     }
+    @Test
+    public void canCalculateMarkUp(){
+        assertEquals(2.00, sheetMusic.calculateMarkUp(), 0.01);
+    }
 }

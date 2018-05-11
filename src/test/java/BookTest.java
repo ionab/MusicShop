@@ -35,4 +35,12 @@ public class BookTest {
     public void canGetTitle() {
         assertEquals("test title", book.getTitle());
     }
+    @Test
+    public void canCalculateMarkUp(){
+        assertEquals(1.00, book.calculateMarkUp(), 0.01);
+    }
+
+
+
+
 }
