@@ -21,4 +21,11 @@ public class Shop {
     public void removeItem(Item item){
         itemsArray.remove(item);
     }
+    public double calculateTotalProfit(){
+        double totalProfit = 0;
+        for (Item item : itemsArray){
+            totalProfit += item.calculateMarkUp();
+        }
+        return totalProfit;
+    }
 }

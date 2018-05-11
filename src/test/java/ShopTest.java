@@ -43,7 +43,7 @@ public class ShopTest {
     public void canCalculateTotalProfit(){
         shop.addItem(book);
         shop.addItem(guitar);
-        assertEquals(21, shop.calculateTotalProfit());
+        assertEquals(11, shop.calculateTotalProfit(), 0.01);
     }
 
 }
