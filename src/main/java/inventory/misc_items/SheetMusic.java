@@ -1,8 +1,9 @@
 package inventory.misc_items;
 
+import behaviours.ISell;
 import inventory.Item;
 
-public class SheetMusic extends Item {
+public class SheetMusic extends Item implements ISell {
 
     public String composer;
 

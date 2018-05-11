@@ -1,8 +1,9 @@
 package inventory.misc_items;
 
+import behaviours.ISell;
 import inventory.Item;
 
-public class Book extends Item {
+public class Book extends Item implements ISell{
     private String author;
     private String title;
 
