@@ -24,4 +24,6 @@ public abstract class Item implements ISell {
     public double getSell_price() {
         return sell_price;
     }
+
+    public
 }
