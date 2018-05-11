@@ -48,4 +48,8 @@ public class TrumpetTest {
     public void canGetInstrumentType(){
         assertEquals(InstrumentTypes.BRASS, trumpet.getInstrumentTypes());
     }
+    @Test
+    public void canPlay() {
+        assertEquals("Toot toot", trumpet.play());
+    }
 }
