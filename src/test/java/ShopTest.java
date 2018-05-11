@@ -1,13 +1,9 @@
-import behaviours.ISell;
-import inventory.Item;
 import inventory.instruments.Guitar;
 import inventory.instruments.InstrumentTypes;
 import org.junit.Before;
 import org.junit.Test;
 import shops.Shop;
 import inventory.misc_items.Book;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -41,6 +37,13 @@ public class ShopTest {
         shop.addItem(guitar);
         shop.removeItem(book);
         assertEquals(1, shop.getItemsSize());
+    }
+
+    @Test
+    public void canCalculateTotalProfit(){
+        shop.addItem(book);
+        shop.addItem(guitar);
+        assertEquals(21, shop.calculateTotalProfit());
     }
 
 }
