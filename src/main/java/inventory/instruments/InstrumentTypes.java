@@ -1,4 +1,4 @@
-package Inventory.instruments;
+package inventory.instruments;
 
 public enum InstrumentTypes {
     BOWEDSTRING,

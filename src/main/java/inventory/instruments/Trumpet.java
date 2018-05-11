@@ -1,4 +1,4 @@
-package Inventory.instruments;
+package inventory.instruments;
 
 public class Trumpet extends Instrument {
     public Trumpet(String name, double stock_value, double sell_price, String brand, String model, String material, InstrumentTypes instrumentTypes) {

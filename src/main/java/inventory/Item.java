@@ -1,4 +1,4 @@
-package Inventory;
+package inventory;
 
 public abstract class Item {
     private String name;

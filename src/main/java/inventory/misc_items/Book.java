@@ -1,6 +1,6 @@
-package misc_items;
+package inventory.misc_items;
 
-import Inventory.Item;
+import inventory.Item;
 
 public class Book extends Item {
     private String author;

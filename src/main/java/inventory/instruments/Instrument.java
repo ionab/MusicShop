@@ -1,6 +1,6 @@
-package Inventory.instruments;
+package inventory.instruments;
 
-import Inventory.Item;
+import inventory.Item;
 
 public abstract class Instrument extends Item{
 
@@ -31,5 +31,9 @@ public abstract class Instrument extends Item{
 
     public InstrumentTypes getInstrumentTypes() {
         return instrumentTypes;
+    }
+
+    public void setInstrumentTypes(InstrumentTypes instrumentTypes) {
+        this.instrumentTypes = instrumentTypes;
     }
 }
