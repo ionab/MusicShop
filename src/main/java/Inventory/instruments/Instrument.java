@@ -16,4 +16,20 @@ public abstract class Instrument extends Item{
         this.material = material;
         this.instrumentTypes = instrumentTypes;
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public InstrumentTypes getInstrumentTypes() {
+        return instrumentTypes;
+    }
 }
